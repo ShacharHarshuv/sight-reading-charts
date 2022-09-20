@@ -1,0 +1,16 @@
+.Staff {
+  display: flex;
+  font-size: 16px;
+  gap: 1em;
+  margin-bottom: 3em;
+
+  @media print {
+    break-inside: avoid;
+  }
+
+  &-beat {
+    display: grid;
+    width: 2em;
+    place-items: center;
+  }
+}
